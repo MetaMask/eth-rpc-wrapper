@@ -47,3 +47,12 @@ testEthNode:
     - /var/data/geth:/root/.ethereum
   ports:
     - "9000"
+
+testFaucet:
+  image: kumavis/eth-faucet
+  restart: always
+  environment:
+    VIRTUAL_HOST: "faucet.metamask.io"
+    VIRTUAL_PORT: "9000"
+  ports:
+    - "9000"
