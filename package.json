@@ -9,7 +9,7 @@
     "cors": "^2.7.1",
     "express": "^4.13.3",
     "request": "^2.66.0",
-    "web3-provider-engine": "^4.0.0"
+    "web3-provider-engine": "^13.2.9"
   },
   "devDependencies": {},
   "scripts": {
